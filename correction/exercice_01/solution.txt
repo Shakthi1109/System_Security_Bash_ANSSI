@@ -1,0 +1,6 @@
+TP:
+strings exo1.exe | grep CAKE
+
+Objectives:
+- understand how a binary is created
+--> see that the brute force is not the solution and being aware of the environment is essential.

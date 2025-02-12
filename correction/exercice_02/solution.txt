@@ -1,0 +1,17 @@
+TP
+gdb attack:
+gdb exo2.exe
+b main
+run
+disas /m main
+to see : 0x0000555555555358 <+239>:   je     0x55555555536b <main+258>
+
+Then replace je with jne :  set *(unsigned char*)0x0000555555555358 = 0x75
+next to continue execution and type garbage :-).
+
+NOTE : https://gtfobins.github.io/gtfobins/gdb/
+
+Objectives:
+--> hte design of a protection is important even with a dummy the binary
+--> understand the linux rights
+--> begin to understand the concept of protection in depth / partial compromission

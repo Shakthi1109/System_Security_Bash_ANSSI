@@ -1,0 +1,5 @@
+Objectives:
+- code in c
+- get familiar with multiple tools : gcc, python etc.
+
+--> see that brute force is not relevent
